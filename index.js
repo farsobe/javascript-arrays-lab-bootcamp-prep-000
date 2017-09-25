@@ -34,5 +34,5 @@ function appendKitten(name) {
   // append a kitten to kittens array, then return new array.
   // kittens array should be unchanged
 
-  return [name, ...];
+  return [kittens, name...];
 }
