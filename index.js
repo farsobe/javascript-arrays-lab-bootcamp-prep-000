@@ -45,6 +45,5 @@ function prependKitten(name) {
 function removeLastKitten(name){
   // remove the last element and return a new array. Kittens array should be unchanged
 
-  var newKittenArray = removeLastKitten.pop(name);
-  return newKittenArray;
+  return removeLastKitten.slice (0, removeLastKitten.length - 1);
 }
