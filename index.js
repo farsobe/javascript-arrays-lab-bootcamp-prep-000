@@ -29,11 +29,10 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name);
   return kittens;
 }
-/*
+
 function appendKitten(name) {
   // append a kitten to kittens array, then return new array.
   // kittens array should be unchanged
 
-  return [kittens, ...];
+  return [name, ...];
 }
-*/
