@@ -41,3 +41,10 @@ function prependKitten(name) {
 
   return [name, ...kittens]
 }
+
+function removeLastKitten(name){
+  // remove the last element and return a new array. Kittens array should be unchanged
+
+  var newKittenArray = removeLastKitten.pop(name);
+  return newKittenArray;
+}
